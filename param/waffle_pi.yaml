@@ -1,4 +1,4 @@
-tb3_1:
+tb3_0:
   turtlebot3_node:
     ros__parameters:
 
@@ -28,7 +28,7 @@ tb3_1:
 
         sonar: false
 
-tb3_1:
+tb3_0:
   diff_drive_controller:
     ros__parameters:
 

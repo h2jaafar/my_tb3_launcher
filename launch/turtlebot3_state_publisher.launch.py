@@ -56,8 +56,8 @@ def generate_launch_description():
         Node(
             package='robot_state_publisher',
             executable='robot_state_publisher',
-            namespace = 'tb3_0',
+            namespace = 'B04',
             output='screen',
-            parameters=[{'use_sim_time': use_sim_time}],
+            parameters=[{'use_sim_time': use_sim_time, 'frame_prefix': 'B04'}],
             arguments=[urdf]),
     ])

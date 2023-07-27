@@ -1,4 +1,4 @@
-tb3_0:
+B04:
   turtlebot3_node:
     ros__parameters:
 
@@ -28,12 +28,12 @@ tb3_0:
 
         sonar: false
 
-tb3_0:
+B04:
   diff_drive_controller:
     ros__parameters:
 
       odometry:
         publish_tf: true
         use_imu: true
-        frame_id: "odom"
-        child_frame_id: "base_footprint"
+        frame_id: "B04/odom"
+        child_frame_id: "B04/base_footprint"
